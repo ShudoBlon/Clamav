@@ -19,7 +19,7 @@ Télécharger le script, ouvrir un terminal puis :
 
 ```bash
 # Au premier lancement, s'assurer que celui-ci est exécutable 
-$ chmod +x dnsbang.sh
+$ sudo chmod +x clamav-scan.sh
 
 # Exécuter le script 
 $ sudo bash clamav-scan.sh

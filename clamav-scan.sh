@@ -19,7 +19,7 @@ text_scan="
 # Installation de Clamav ainsi que de son automatisation
 clamav_install() {
     clamav_verif=$(which apache | grep -o apache > /dev/null &&  echo 1 || echo 0)
-    if [ ${clamav_verif} -ne 0 ] ; then
+    if [ ${clamav_verif} -ne 1 ] ; then
         # Installation
         apt update -y && apt install -y clamav
 
